@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: lightblue;
 }
 
@@ -27,7 +29,25 @@ nav {
 }
 
 .header {
-    margin: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+}
+
+.container-left {
+    float: left;
+}
+
+.container-right {
+    float: right;
 }
