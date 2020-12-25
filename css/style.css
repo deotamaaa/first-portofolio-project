@@ -22,6 +22,8 @@ a:hover {
     color: black;
 }
 
+/* Header section */
+
 nav {
     display: flex;
     padding-top: 10px;
@@ -40,14 +42,14 @@ nav {
     align-items: center;
 }
 
+/* Main Section */
+
 .container {
+    background-color: red;
     display: grid;
+    grid-template-areas: "main main";
+    grid-template-columns: 1fr 1fr;
+
 }
 
-.container-left {
-    float: left;
-}
-
-.container-right {
-    float: right;
-}
+main {}
