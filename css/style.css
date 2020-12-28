@@ -1,8 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightblue;
     font-family: 'Montserrat', sans-serif;
+    background-image: url("/images/17545.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 li {
@@ -24,7 +27,6 @@ a:hover {
 
 p {
     margin: 0;
-
 }
 
 h1 {
@@ -40,6 +42,7 @@ button {
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 20px;
     padding: 10px 30px;
     width: 200px;
     text-decoration: none;
@@ -76,6 +79,7 @@ nav {
 /* Main Section */
 
 .container {
+    margin-top: 10%;
 
     display: grid;
     grid-template-areas: "main main";
@@ -93,4 +97,22 @@ nav {
 
 .item2 {
     padding-left: 25%;
+}
+
+.profile-pict {
+    background-color: #ffffff;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.25px;
+    width: 50%;
+}
+
+.top-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.mid-text {
+    margin-bottom: 10px;
+    color: white;
 }
